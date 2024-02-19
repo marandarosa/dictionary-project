@@ -12,7 +12,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer>
-          <small>Open-source code by Maranda Valentin</small>
+          <small>
+            Open-source code by{" "}
+            <a
+              href="https://www.linkedin.com/in/maranda-valentin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Maranda Valentin
+            </a>
+          </small>
         </footer>
       </div>
     </div>

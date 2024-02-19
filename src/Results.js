@@ -19,5 +19,7 @@ export default function Results(props) {
         </div>
       </div>
     );
+  } else {
+    return null;
   }
 }
