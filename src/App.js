@@ -11,10 +11,10 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
+        <footer>
+          <small>Open-source code by Maranda Valentin</small>
+        </footer>
       </div>
-      <footer>
-        <small>Open-source code by Maranda Valentin</small>
-      </footer>
     </div>
   );
 }

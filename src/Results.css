@@ -1,0 +1,17 @@
+.Results .container {
+  background-color: white;
+  padding: 25px 25px;
+}
+
+.Results h2 {
+  margin: 0;
+}
+
+.Results h5 {
+  color: gray;
+  font-weight: lighter;
+}
+
+.Results strong {
+  color: #f74c87;
+}
