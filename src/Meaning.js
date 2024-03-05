@@ -1,13 +1,14 @@
 import React from "react";
+import Example from "./Example";
 
 export default function Meaning(props) {
   console.log(props.meaning);
   return (
     <div className="Meaning">
-      <strong className="fst-italic">{props.meaning.partOfSpeech}</strong>
+      <strong>{props.meaning.partOfSpeech}</strong>
       <ul>
         <li>{props.meaning.definition}</li>
-        <em>{props.meaning.example}</em>
+        <Example data={props.meaning.example} />
       </ul>
     </div>
   );
