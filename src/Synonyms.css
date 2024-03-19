@@ -1,11 +1,12 @@
 .Synonyms {
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 13px;
+  opacity: 0.8;
 }
 
 .Synonyms .similar {
   border: 1px solid lightgray;
-  padding: 3px;
+  padding: 3px 5px;
   border-radius: 10px;
   margin: 2px;
 }
