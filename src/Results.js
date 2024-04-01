@@ -10,11 +10,13 @@ export default function Results(props) {
           <h2 className="text-center">{props.data.word}</h2>
           <h5 className="text-center">/{props.data.phonetic}/</h5>
           {props.data.meanings.map(function (meaning, index) {
-            return (
-              <div key={index}>
-                <Meaning meaning={meaning} />
-              </div>
-            );
+            if (index < 5) {
+              return (
+                <div key={index}>
+                  <Meaning meaning={meaning} />
+                </div>
+              );
+            }
           })}
         </div>
       </div>
