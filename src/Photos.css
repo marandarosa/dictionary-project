@@ -1,0 +1,17 @@
+.Photos div {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.Photos {
+  margin-top: 15px;
+}
+
+.Photos img {
+  border-radius: 10px;
+}
+
+.Photos a:hover {
+  filter: grayscale(85%);
+}
